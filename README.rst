@@ -38,9 +38,12 @@ Preview
         :alt: Sample Screenshot
         :width: 100%
         :align: center
+        
+Adaption
+------------------
     .. image:: https://github.com/whcacademy/Sudocabulary/blob/master/newexample.png
         :alt: New Sample Screenshot
-        :width: 100%
+        :width: 80%
         :align: center
 How to Contribute
 -----------------
