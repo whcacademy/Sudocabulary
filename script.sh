@@ -7,7 +7,7 @@ elif [[ "$OSTYPE" == "darwin"* ]]; then
 fi
 
 if ! grep -Fxq '~/.vocab' ~/.$OSBASHRC; then
-	echo $'\nchmod +x ~/.vocab\n~/.vocab\nalias clear="clear;~/.vocab"' >> ~/.$OSBASHRC
+	echo $'\nchmod +x ~/.vocab\n~/.vocab\nalias clear="clear;~/.vocab"\nPROMPT_COMMAND="~/.vocab"' >> ~/.$OSBASHRC
 fi
 
 OSBASHRC="zshrc"
@@ -16,3 +16,5 @@ if [[ -f ~/.$OSBASHRC ]]; then
 		echo $'\nchmod +x ~/.vocab\n~/.vocab\nalias clear="clear;~/.vocab"' >> ~/.$OSBASHRC
 	fi
 fi
+
+
