@@ -26,13 +26,22 @@ Requirements for pip installation
 
 -   python>=2.7
 
+New adaption from badarsh2 to my own
+----------------------------------
+* 1. change color to fit white background
+* 2. change one word a session to one word per execution
+
+
 Preview
 ------------------
-    .. image:: https://raw.githubusercontent.com/badarsh2/Sudocabulary/master/sample.png
+    .. image:: https://github.com/whcacademy/Sudocabulary/blob/master/sample.png
         :alt: Sample Screenshot
         :width: 100%
         :align: center
-
+    .. image:: https://github.com/whcacademy/Sudocabulary/blob/master/newexample.png
+        :alt: New Sample Screenshot
+        :width: 100%
+        :align: center
 How to Contribute
 -----------------
 
